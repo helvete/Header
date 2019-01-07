@@ -2,8 +2,6 @@
 
 namespace RM\AssetsCollector\Compilers;
 
-use Nette\Object;
-
 /**
  * Base class for JS file compilers.
  *

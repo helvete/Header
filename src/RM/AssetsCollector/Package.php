@@ -1,8 +1,6 @@
 <?php
 namespace RM\AssetsCollector;
 
-use Nette\Object;
-
 /**
  * Class of Packages for AssetsCollector.
  *
@@ -10,7 +8,7 @@ use Nette\Object;
  * @copyright (c) Roman Mátyus 2012
  * @license MIT
  */
-class Package extends Object
+class Package
 {
 	/** @var string name of package */
 	private $name;

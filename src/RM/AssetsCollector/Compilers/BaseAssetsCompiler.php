@@ -2,8 +2,6 @@
 
 namespace RM\AssetsCollector\Compilers;
 
-use Nette\Object;
-
 /**
  * Base class for CSS/JS file compilers.
  *
@@ -11,7 +9,7 @@ use Nette\Object;
  * @copyright (c) Roman Mátyus 2012
  * @license MIT
  */
-abstract class BaseAssetsCompiler extends Object
+abstract class BaseAssetsCompiler
 {
 	/** @var string content of processed file */
 	protected $input;

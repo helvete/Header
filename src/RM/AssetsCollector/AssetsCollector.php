@@ -1,7 +1,6 @@
 <?php
 namespace RM\AssetsCollector;
 
-use Nette\Object;
 use Nette\FileNotFoundException;
 use Nette\InvalidArgumentException;
 use Nette\Utils\Finder;
@@ -15,7 +14,7 @@ use Nette\Utils\Validators;
  * @copyright (c) Roman Mátyus 2012
  * @license MIT
  */
-class AssetsCollector extends Object
+class AssetsCollector
 {
 	/** File type */
 	const CSS = "css";
